@@ -1,0 +1,104 @@
+/* нормалізація стилів */
+@import-normalize;
+
+/* змінні */
+:root {
+  /* Color Palet */
+  --categoryColor: #125b56;
+  --categoryColorAlfa: rgba(18, 91, 86, 0.1);
+
+  --firstLevelColor: #567637;
+  --firstLevelColorAlfa: rgba(86, 118, 55, 0.1);
+
+  --secondLevelColor: #29567f;
+  --secondLevelColorAlfa: rgba(41, 86, 127, 0.1);
+
+  --thirdLevelColor: #44297f;
+  --thirdLevelColorAlfa: rgba(68, 41, 127, 0.1);
+
+  --materialColor: #4e4d4f;
+  --materialColorAlfa: rgba(78, 77, 79, 0.1);
+
+  --price-color: #609729;
+  --unit-color: #29567f;
+
+  --icon-gray: #afb1b8;
+  --background-white: #ffffff;
+  --background-white-transperent: rgba(255, 255, 255, 0.1);
+  --white-transperent: rgba(255, 255, 255, 0.3);
+  --background-grey-transparent: rgba(47, 48, 58, 0.8);
+  --background-light-gray: #f5f4fa;
+  --background-dark-gray: #2f303a;
+  --border-grey: rgba(33, 33, 33, 0.2);
+  --text-black: #000000;
+  --text-white: #ffffff;
+  --text-gray: #757575;
+  --text-dark-gray: #212121;
+  --text-gray-alfa: rgba(255, 255, 255, 0.6);
+  --accent: #0a73a7;
+  --accent-hover: #0d83be;
+  --accent-transparent: rgba(33, 149, 243, 0.658);
+  --font-main: Robotgo, sans-serif;
+  --font-decor: Raleway, Segoe UI, sans-serif;
+  --border-gray: rgba(236, 236, 236, 1);
+
+  --card-gap: 30px;
+  --portfolio-gap: 20px;
+  --card-item-count: 2;
+
+  --shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  --card-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+  --big-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+  --all-side-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
+  --time-animation: 250ms;
+  --transition-color: color var(--time-animatio) var(--cubic-bezier);
+
+  --breakpoint-mob: 375px;
+  --breakpoint-mobMax: 767px;
+  --breakpoint-tab: 1200px;
+  --breakpoint-tabMax: 1439px;
+  --breakpoint-desk: 1440px;
+}
+
+/* Скидання стилів */
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
+  /* color: white; */
+  background-color: #ffffff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
