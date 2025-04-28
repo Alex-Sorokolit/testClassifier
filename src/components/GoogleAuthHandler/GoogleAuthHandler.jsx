@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../context/authContext";
 import { toast } from "react-toastify";
-import { completeRegistration } from "../../api/auth"; // Ваш API запит для завершення реєстрації
+// import { completeRegistration } from "../../api/auth"; // Ваш API запит для завершення реєстрації
 
 const GoogleAuthHandler = () => {
   const navigate = useNavigate();

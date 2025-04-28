@@ -8,7 +8,7 @@ import Section from "../../components/Section/Section";
 import css from "./WelcomePage.module.css";
 
 const WelcomePage = () => {
-  return (8
+  return (
     <Section title={"Welcome"}>
       <div className={css.buttonsWrapper}>
         <NavLink className={css.button} to={"/registration"}>
